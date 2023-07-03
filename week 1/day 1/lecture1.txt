@@ -1,0 +1,10 @@
+1. installation python
+2. installation visual studio code and explaination
+3. installation virtual environment using python -m venv env
+4. installation jupyter plugins in visual studio code
+5. installation of repository and opening in visual studio code
+6. explaination of coding structure and curriculum
+7. going over the theory
+8. explaination of exercises and what is to be expected
+9. explaination of tests in exercises 
+10. explaination of where to could request help or what to do if they are stuck.
