@@ -1,0 +1,39 @@
+1. Python programming basics
+
+    Introduction to Python programming
+    Variables and data types
+    Control structures (if/else, loops)
+    Functions and modules
+    Input/output and file handling
+    Object-oriented programming basics
+
+2. Numpy and Pandas
+
+    Introduction to Numpy arrays
+    Array indexing and slicing
+    Vectorization and broadcasting
+    Introduction to Pandas dataframes
+    Dataframe indexing and slicing
+    Data cleaning and preprocessing
+
+3. Data visualization and Feature engineering
+
+    Introduction to Matplotlib
+    Line plots, scatter plots, and histograms
+    Seaborn for statistical visualization
+    Plotting with Pandas
+    Getting insides from data
+    Feature engineering
+
+
+4. Machine Learning
+
+    Introduction to Machine Learning
+    Types of Machine Learning (Supervised, Unsupervised, Reinforcement)
+    Introduction to Scikit-Learn library
+    Data preprocessing and feature engineering
+    Model selection and evaluation
+    Supervised learning algorithms (Linear Regression, Logistic Regression, Decision Trees, Random Forests, Support Vector Machines, K-Nearest Neighbors)
+    Unsupervised learning algorithms (K-Means Clustering, PCA, Hierarchical Clustering)
+    Neural Networks and Deep Learning (Introduction to Keras)
+

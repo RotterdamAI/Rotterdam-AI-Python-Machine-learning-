@@ -44,3 +44,65 @@ def test_Book(f):
     assert(x.get_author() == "testauthor")
     assert(x.get_year() == "9999")
 
+
+class Animal:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def speak(self):
+        print("An animal makes a sound.")
+
+# Define the Dog class
+class Dog(Animal):
+    def __init__(self, name, age, breed):
+        super().__init__(name, age)
+        self.breed = breed
+
+    def speak(self):
+        print("The dog barks.")
+
+# Define the Cat class
+class Cat(Animal):
+    def __init__(self, name, age, color):
+        super().__init__(name, age)
+        self.color = color
+
+    def speak(self):
+        print("The cat meows.")
+
+# Create instances of the classes
+animal = Animal("Generic Animal", 5)
+dog = Dog("Buddy", 3, "Labrador")
+cat = Cat("Whiskers", 2, "Gray")
+
+# Call the speak() method on each object
+animal.speak()
+dog.speak()
+cat.speak()
+
+
+class Vector:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        return f"({self.x}, {self.y})"
+    
+    def __add__(self, object):
+        if isinstance(object, Vector):
+            new_x = self.x + object.x
+            new_y = self.y + object.y
+            return Vector(new_x, new_y)
+        else:
+            raise TypeError("Unsupported operand type for +: 'Vector' and {}".format(type(object).__name__))
+    
+    
+    def __mul__(self, scalar):
+        if isinstance(scalar, (int, float)):
+            new_x = self.x * scalar
+            new_y = self.y * scalar
+            return Vector(new_x, new_y)
+        else:
+            raise TypeError("Unsupported operand type for *: 'Vector' and '[]'".format(type(scalar).__name__))
