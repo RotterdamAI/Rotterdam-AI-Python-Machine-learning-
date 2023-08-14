@@ -1,0 +1,12 @@
+https://www.coursera.org/specializations/python  --> A series of courses that teaches you Python programming from the basics to advanced topics.
+
+https://app.datacamp.com/learn/career-tracks/machine-learning-scientist-with-python --> A comprehensive resource for developing classical machine learning models in Python.
+
+https://www.deeplearning.ai/ --> Website with several short courses and specializations in neural networks and deep learning.
+
+Recommended order of taking courses:
+  1. AI for Everyone
+  2. Deep Learning Specialization
+  3. TensorFlow Developer Professional Certificate
+
+This will give you a very solid overview of TF for deep learning model development. After this you can explore the other specializations out of interest.
